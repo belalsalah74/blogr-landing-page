@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="nav-container">
+        <a href="/"> <img src="images/logo.svg" alt="logo" class="brand" /></a>
+        <img src="images/icon-hamburger.svg" alt="" class="toggler burger" />
+        <img src="images/icon-close.svg" alt="" class="toggler menu-close" />
+
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              Product
+              <ul class="inner-list">
+                <li><a href="">overview</a></li>
+                <li><a href="">pricing</a></li>
+                <li><a href="">marketplace</a></li>
+                <li><a href="">features</a></li>
+                <li><a href="">integration</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              company
+              <ul class="inner-list">
+                <li><a href="">about</a></li>
+                <li><a href="">team</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">careers</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              connect
+              <ul class="inner-list">
+                <li><a href="">contact</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="login-signup">
+            <a href="#" class="login">login</a>
+            <a href="#" class="btn btn-sign">sign up</a>
+          </div>
+        </nav>
+      </div>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1>A modern publishing platform</h1>
+          <p class="hero-sub-title">
+            Grow your audience and build your online brand
+          </p>
+          <a href="" class="btn btn-white">Start for Free</a>
+          <a href="" class="btn btn-outline">learn more</a>
+        </div>
+      </section>
+    </header>
+
+    <!-- Feature -->
+    <section class="feature feature-editor">
+      <div class="container">
+        <h2 class="feature-title">Designed for the future</h2>
+        <div class="feature-img">
+          <img
+            src="images/illustration-editor-mobile.svg"
+            class="mobile-editor-img"
+          />
+          <img
+            src="images/illustration-editor-desktop.svg"
+            class="desktop-editor-img"
+          />
+        </div>
+
+        <div class="feature-body">
+          <div class="text-box">
+            <h3 class="box-heading">Introducing an extensible editor</h3>
+            <p class="box-body">
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="text-box">
+            <h3 class="box-heading">Robust content management</h3>
+            <p class="box-body">
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Dark feature -->
+    <section class="feature-dark">
+      <div class="container">
+        <img
+          src="images/illustration-phones.svg"
+          alt=""
+          class="dark-feature-img"
+        />
+        <div class="text-box">
+          <h2 class="box-heading">State of the Art Infrastructure</h2>
+          <p class="box-body">
+            With reliability and speed in mind, worldwide data centers provide
+            the backbone for ultra-fast connectivity. This ensures your site
+            will load instantly, no matter where your readers are, keeping your
+            site competitive.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature feature-laptop">
+      <div class="container">
+        <div class="feature-img">
+          <img
+            src="images/illustration-laptop-mobile.svg"
+            class="mobile-editor-img"
+          />
+          <img
+            src="images/illustration-laptop-desktop.svg"
+            class="desktop-editor-img"
+          />
+        </div>
+
+        <div class="feature-body">
+          <div class="text-box">
+            <h3 class="box-heading">Free, open, simple</h3>
+            <p class="box-body">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="text-box">
+            <h3 class="box-heading">Powerful tooling</h3>
+            <p class="box-body">
+              With reliability and speed in mind, worldwide data centers provide
+              the backbone for ultra-fast connectivity. This ensures your site
+              will load instantly, no matter where your readers are, keeping
+              your site competitive.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="container">
+        <img src="images/logo.svg" alt="" class="footer-logo" />
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              Product
+              <ul class="footer-inner-list">
+                <li><a href="">overview</a></li>
+                <li><a href="">pricing</a></li>
+                <li><a href="">marketplace</a></li>
+                <li><a href="">features</a></li>
+                <li><a href="">integration</a></li>
+              </ul>
+            </li>
+            <li class="footer-nav-item">
+              company
+              <ul class="footer-inner-list">
+                <li><a href="">about</a></li>
+                <li><a href="">team</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">careers</a></li>
+              </ul>
+            </li>
+            <li class="footer-nav-item">
+              connect
+              <ul class="footer-inner-list">
+                <li><a href="">contact</a></li>
+                <li><a href="">Newsletter</a></li>
+                <li><a href="">LinkedIn</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </footer>
+
+    <script>
+      let toggler = document.querySelectorAll(".toggler");
+      let header = document.querySelector(".main-header");
+      let navItem = document.querySelectorAll(".nav-item");
+
+      function expandMenu() {
+        header.classList.toggle("expanded");
+      }
+
+      function expandList() {
+        this.classList.toggle("expanded");
+        console.log("from nav");
+      }
+
+      toggler.forEach((item) => item.addEventListener("click", expandMenu));
+      navItem.forEach((item) => item.addEventListener("click", expandList));
+    </script>
+  </body>
+</html>
